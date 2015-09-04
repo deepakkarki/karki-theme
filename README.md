@@ -1,5 +1,5 @@
 # karki-theme
-A lite weight, responsive jekyll theme.
+A lite weight, responsive jekyll theme - meant for developer blogs.
 
 This uses a simple [grid system](http://www.responsivegridsystem.com/). No CSS or JS framework will be used so as to keep the website as fast as possible.
 
