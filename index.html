@@ -1,41 +1,77 @@
+<!--
+Layout of page
+==============
+
+	Top color bar
+	Nav bar:
+		links-left
+		links-right
+		image-center
+	Tile bar:
+		title
+		sub-title
+		icon bar (verticle, right floating) - invisible as of now
+	Body:
+		content
+		aside
+	Footer:
+		some quote maybe
+		copyright
+-->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- 
-	This will be the file for expreimentation of the template
-	Once the design is concrete - will convert into template.
-
-	In the final jekyll theme, there will be a template for 
-	* static page
-	* blog index
-	* project page (same as static page?)
-	* blog post
-
-	(Theme for static, blog index, project will mostly remain same)
-	
-	NOTE : Theme implies the design of the page, the template includes the liquid tags and stuff
-			not to be confused with each another.
-	-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is Deepak karki's blog about technology and software development">
 </head>
 
 <body>
-	<!--
-		Top color bar
-		Nav bar:
-		  links-left
-		  links-right
-		  image-center
-		Tile bar:
-		  title
-		  sub-title
-		  icon bar (verticle, right floating) - invisible as of now
-		Body: 
-		  content
-		  aside
-		Footer:
-		  some quote maybe 
-		  copyright
-	-->
+	<header>
+		<!-- This is the thin 2px line at the top - gives nice effect -->
+		<div class="top-line">
+		</div>
+
+		<!-- This will have the links -->
+		<nav>
+			<ul>
+				<li class="nav-link">Link 1</li>
+				<li class="nav-link">Link 2</li>
+				<li class="nav-logo">Logo </li>
+				<li class="nav-link">Link 3</li>
+				<li class="nav-link">Link 4</li>
+			</ul>
+		</nav>
+
+		<!-- This holds the heading and subheading -->
+		<div class="header-content">
+			<div class="heading">
+				First blog post!
+			</div>
+			<div class="sub-heading">
+				Testing the template, and this is very good indeed.
+			</div>
+		</div>
+
+	</header>
+
 </body>
 
 </html>
+
+<!--
+This will be the file for expreimentation of the template
+Once the design is concrete - will convert into template.
+
+In the final jekyll theme, there will be a template for
+* static page
+* blog index
+* project page (same as static page?)
+* blog post
+
+(Theme for static, blog index, project will mostly remain same)
+
+Note : Theme implies the design of the page, the template includes the liquid tags and stuff
+		not to be confused with each another.
+-->
