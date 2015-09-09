@@ -91,7 +91,7 @@ nav .link:hover {
 nav .logo {
   position: relative;
   vertical-align: top;
-  margin-top: 5px;
+  margin-top: 0.5%;//5px;
   width: 70px;
 }
 
@@ -116,15 +116,29 @@ nav .logo img:hover {
 }
 
 .blog-title {
-  height: 200px;
   width: 100%;
+  padding-left: 12%;
+  padding-right: 7.5%;
+  padding-bottom: 20px;
   background: #448AFF;
+  display: inline-block;
 }
 
-.blog-title heading {
-
+.blog-title .heading {
+  font-size: 300%;
+  color: white;
+  font-weight: 300;
+  margin-top: 60px; //better to have fixed as compared to %
+  margin-bottom: 15px;
+  max-width: 75%;
 }
 
-.blog-title sub-heading {
-
+.blog-title .sub-heading {
+  font-size: 120%;
+  color: #C5CAE9;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 150%;
+  max-width: 75%;
 }
