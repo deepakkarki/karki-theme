@@ -141,3 +141,19 @@ nav .logo img:hover {
   line-height: 150%;
   max-width: 75%;
 }
+
+/************************/
+/*        icons        */
+/************************/
+
+.icon-big {
+  font-size: 250%;
+  display: inline-block;
+  color: white;
+}
+
+.icon-medium {
+  font-size: 200%;
+  display: inline-block;
+  color: white;
+}
