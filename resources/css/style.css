@@ -54,6 +54,11 @@ body {
   background-color: #303F9F;
 }
 
+/* ------------------ */
+/* Header > Nav bar   */
+/* ------------------ */
+
+
 nav {
   background-color: #3F51B5;
 }
@@ -113,14 +118,43 @@ nav .logo img:hover {
   transition: box-shadow 0.2s;
 }
 
+/* --------------------- */
+/* Header > blog title   */
+/* --------------------- */
+
 .blog-title {
   width: 100%;
-  padding-left: 12%;
-  padding-right: 7.5%;
   padding-bottom: 20px;
   background: #448AFF;
   display: inline-block;
   box-shadow: 0 5px 3px -5px #333;
+}
+
+/* Left side panel  */
+
+.blog-title .left-panel {
+  float: left;
+  width: 15%;
+  text-align: center;
+}
+
+//need to try with wrapper div - shall try tomorrow 
+.blog-title .left-panel i {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0 2px 5px 0 #333;
+}
+
+/* Title wrapper    */
+
+.blog-title .title-wrapper {
+  float: left;
+  width: 70%;
+  padding-right: 10%;
 }
 
 .blog-title .heading {
@@ -129,7 +163,6 @@ nav .logo img:hover {
   font-weight: 300;
   margin-top: 60px; //better to have fixed as compared to %
   margin-bottom: 15px;
-  max-width: 75%;
 }
 
 .blog-title .sub-heading {
@@ -139,21 +172,38 @@ nav .logo img:hover {
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 150%;
-  max-width: 75%;
 }
+
+/* Right side panel */
+.blog-title .right-panel {
+  float: left;
+  width: 15%;
+}
+
 
 /************************/
 /*        icons        */
 /************************/
 
 .icon-big {
-  font-size: 250%;
+  font-size: 150%;
   display: inline-block;
-  color: white;
+  color: #727272;
 }
 
 .icon-medium {
-  font-size: 200%;
+  font-size: 150%;
   display: inline-block;
-  color: white;
+  color: #727272;
+}
+
+.blog-title ul {
+  list-style: none;
+}
+
+.blog-title ul li {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px white;
 }
