@@ -202,8 +202,33 @@ nav .logo img:hover {
 .blog-title .right-panel {
   float: left;
   width: 15%;
+  position: relative;
 }
 
+.blog-title .right-panel ul {
+  list-style: none;
+  float: right;
+  margin-right: 5%;
+  padding-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-70%, -50%);
+}
+
+.blog-title .right-panel ul::after {
+  clear: both;
+}
+
+.blog-title .right-panel ul li {
+  display:flex;justify-content:center;align-items:center;
+  background-color: white;
+  margin: 15px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  box-shadow: 0 2px 5px 0 #333;
+}
 
 /************************/
 /*        icons        */
@@ -216,18 +241,7 @@ nav .logo img:hover {
 }
 
 .icon-medium {
-  font-size: 150%;
+  font-size: 130%;
   display: inline-block;
   color: #727272;
-}
-
-.blog-title ul {
-  list-style: none;
-}
-
-.blog-title ul li {
-  display: inline-block;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 2px white;
 }
