@@ -42,6 +42,10 @@ body {
 
 }
 
+code {
+  font-family: Hack, monospace;
+}
+
 .clearfix {zoom: 1;}
 .clearfix:after {
     content: '.';
@@ -89,6 +93,7 @@ nav .link {
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 12px;
+  font-weight: 500;
   color: white;
   border-bottom: 3px solid #3F51B5;
 }
@@ -165,6 +170,13 @@ nav .logo img:hover {
   justify-content:center;
   align-items:center;
   box-shadow: 0 2px 5px 0 #333;
+  color: #727272;
+}
+
+.blog-title .left-panel .icon-bg:hover {
+  color: #3F51B5;
+  transform: scale(1.1);
+  transition: color 0.25s, scale 0.25s;
 }
 
 .blog-title .left-panel i {
@@ -184,9 +196,9 @@ nav .logo img:hover {
 }
 
 .blog-title .heading {
-  font-size: 300%;
+  font-size: 335%;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .blog-title .sub-heading {
@@ -212,7 +224,7 @@ nav .logo img:hover {
   padding-top: 10px;
   position: absolute;
   top: 50%;
-  left: 80%;
+  left: 85%;
   transform: translate(-70%, -50%);
 }
 
@@ -228,6 +240,13 @@ nav .logo img:hover {
   height: 35px;
   width: 35px;
   box-shadow: 0 2px 5px 0 #333;
+  color: #727272;
+}
+
+.blog-title .right-panel ul li:hover {
+  color: #3F51B5;
+  transform: scale(1.1);
+  transition: color 0.25s, scale 0.25s;
 }
 
 /************************/
@@ -237,11 +256,9 @@ nav .logo img:hover {
 .icon-big {
   font-size: 175%;
   display: inline-block;
-  color: #727272;
 }
 
 .icon-medium {
   font-size: 130%;
   display: inline-block;
-  color: #727272;
 }
