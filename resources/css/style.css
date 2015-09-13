@@ -76,7 +76,7 @@ code {
 
 
 nav {
-  background-color: #3F51B5;
+  background-color: #0270bc;
 }
 
 nav ul {
@@ -100,7 +100,7 @@ nav .link {
   padding-bottom: 12px;
   font-weight: 500;
   color: white;
-  border-bottom: 3px solid #3F51B5;
+  border-bottom: 3px solid #0270bc;
 }
 
 nav .link:hover {
@@ -124,10 +124,10 @@ nav .logo img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 5px solid #3F51B5;
+  border: 5px solid #0270bc;
   overflow: visible;
   //box-shadow: 0px 0px 2px black;
-  box-shadow: 0 5px 5px -5px #3F51B5;
+  box-shadow: 0 5px 5px -5px #333;
 }
 
 nav .logo img:hover {
@@ -143,7 +143,7 @@ nav .logo img:hover {
   width: 100%;
   padding-bottom: 20px;
   padding-top: 20px;
-  background: #448AFF;
+  background: #01A0F0;
   display: flex;
   box-shadow: 0 5px 3px -5px #333;
 }
@@ -179,7 +179,7 @@ nav .logo img:hover {
 }
 
 .blog-title .left-panel .icon-bg:hover {
-  color: #3F51B5;
+  color: #0270bc;
   transform: scale(1.1);
   transition: color 0.25s, scale 0.25s;
 }
@@ -209,7 +209,7 @@ nav .logo img:hover {
 
 .blog-title .sub-heading {
   font-size: 120%;
-  color: #C5CAE9;
+  color: #B5E9FD;
   font-weight: 300;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -250,7 +250,7 @@ nav .logo img:hover {
 }
 
 .blog-title .right-panel ul li:hover {
-  color: #3F51B5;
+  color: #0270bc;
   transform: scale(1.1);
   transition: color 0.25s, scale 0.25s;
 }
