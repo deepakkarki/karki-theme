@@ -255,6 +255,25 @@ nav .logo img:hover {
   transition: color 0.25s, scale 0.25s;
 }
 
+.author-date {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 90%;
+  font-weight: 300;
+}
+
+.author-date .author {
+  color: white;
+}
+
+.author-date .date {
+  color : #B5E9FD;
+}
+.author-date .date::before {
+    content: ' · ';
+    vertical-align: middle;
+    display: inline;
+}
 /************************/
 /*        icons        */
 /************************/
