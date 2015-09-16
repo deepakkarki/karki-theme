@@ -148,6 +148,14 @@ nav .logo img:hover {
   box-shadow: 0 5px 3px -5px #333;
 }
 
+.blog-title::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* Left side panel  */
 
 .blog-title .left-panel {
@@ -236,6 +244,10 @@ nav .logo img:hover {
 
 .blog-title .right-panel ul::after {
   clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 .blog-title .right-panel ul li {
@@ -286,4 +298,31 @@ nav .logo img:hover {
 .icon-medium {
   font-size: 130%;
   display: inline-block;
+}
+
+/************************/
+/*       content        */
+/************************/
+
+.section-content::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.section-content .left-aside {
+  float: left;
+  width: 15%;
+}
+
+.section-content .content {
+  float: left;
+  width: 70%;
+}
+
+.section-content .right-aside {
+  float: left;
+  width: 15%;
 }
