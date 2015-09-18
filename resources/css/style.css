@@ -333,6 +333,12 @@ nav .logo img:hover {
   width: 30%;
 }
 
+.right-aside .author-card {
+  padding: 0px 30px;
+  max-width: 350px;
+  margin-left: auto;
+}
+
 /************************/
 /*****   footer  ******/
 /************************/
