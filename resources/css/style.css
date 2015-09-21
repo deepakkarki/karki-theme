@@ -307,7 +307,7 @@ nav .logo img:hover {
 .section-content {
   padding-top: 3.5%;
   min-height: 100%;
-  text-align: justify;
+  text-align: justify; 
 }
 
 .section-content::after {
