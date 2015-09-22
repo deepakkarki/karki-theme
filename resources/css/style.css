@@ -340,6 +340,29 @@ nav .logo img:hover {
   margin:0 auto;
 }
 
+.author-card ig {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  border: 3px solid black;
+  /*box-shadow: 0px 0px 1px #333;*/
+}
+
+.author-card .author-img {
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  display: block;
+  background-image: url('../img/pp.jpg');
+  box-shadow: 0px 0px 2px #333;
+  background-size: cover;
+}
+
 /************************/
 /*****   footer  ******/
 /************************/
