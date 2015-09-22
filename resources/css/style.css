@@ -327,6 +327,7 @@ nav .logo img:hover {
 .section-content .content {
   float: left;
   width: 55%;
+  line-height: 138%;
 }
 
 .section-content .right-aside {
@@ -362,6 +363,19 @@ nav .logo img:hover {
   box-shadow: 0px 0px 2px #333;
   background-size: cover;
 }
+
+.author-card .author-name {
+  text-align: center;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.author-card .author-desc {
+  text-align: center;
+  font-size: 90%;
+  font-weight: 300;
+}
+
 
 /************************/
 /*****   footer  ******/
