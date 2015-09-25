@@ -328,6 +328,7 @@ nav .logo img:hover {
   float: left;
   width: 55%;
   line-height: 148%;
+  font-weight: 300;
 }
 
 .section-content .right-aside {
